@@ -1,0 +1,89 @@
+@charset 'utf-8';
+
+#container {	
+    width: 350px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 0px 30px grey;
+    margin: 3% auto;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+}
+
+img {
+    width: 100%;
+}
+
+#button {
+    flex: 1 1 auto;
+}
+
+div section {	
+    font-style: italic;
+    font-size: 0.85rem;
+    padding: 2% 5px 3%;
+    margin: 0 5px;
+    border-bottom: 1px solid gray;
+}
+
+#score, #track, #trackScore, #container > span {
+    padding: 1% 5px 2%;
+    margin: 0 5px;
+}
+
+#score {	
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+
+#score+span {
+	font-size:0.8rem;
+}
+
+#trackScore {	
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#trackScore input {
+    width: 10%;
+    padding: 1% 0px;
+    padding-left: 1.5%;
+    margin: 0 2%;
+    border-radius: 15px;
+    border: 1px solid #cdcbcb;
+}
+
+#trackScore input:focus-visible {    
+	border: 1px solid #cdcbcb;
+}
+
+#button {
+    display: flex;
+}
+
+#button button {
+	width: 100%;
+    border: 0.05px solid #b1b1b1;
+    padding: 2%;
+	color: white;
+}
+
+#button button:last-child {
+	background-color: #f7758b;
+}
+
+#p1Win {
+	background-color: #04bbaf;
+}
+
+#p2Win {
+	background-color: #1558c9;
+}
+
+#button button:active {
+	filter: brightness(90%);
+}
